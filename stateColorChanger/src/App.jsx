@@ -34,7 +34,7 @@ function ColorChanger() {
           border:"1px solid black"
         }}
       ></div>
-      <button onClick={colorHandler}>click to change color</button>
+      <button onClick={colorHandler}style={{backgroundColor: currentColor,color: 'white', padding: '10px'}}>click to change color</button>
    
 
     </>
